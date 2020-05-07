@@ -1,9 +1,9 @@
 <style>
-    div{
-        background-image: url(https://cdn.pixabay.com/photo/2015/07/05/13/44/beach-832346_960_720.jpg);
+    div {
+        background-image: url(people-3120717_1920.jpg);
     }
     body {
-        background-image: url("https://cdn.pixabay.com/photo/2015/07/05/13/44/beach-832346_960_720.jpg");
+        background-image: url(people-3120717_1920.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
@@ -12,18 +12,45 @@
     a {
         text-decoration: none;
     }
-    h1{
-        font-size: 45px;
+    h1 {
+        font-size: 50px;
         border-bottom: 1px solid gray;
-        text-align:center;
-        color: black;
-        margin: 0px;
+        text-align: center;
+        margin: 0;
         padding: 20px;
+        font-family: 'Do Hyeon' , sans-serif;
     }
-    ul{
+    #index{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        color: black;
+    }
+    #grid ul {
+        color: white;
         border-right: 1px solid gray;
         width: 100px;
         margin: 0;
-        padding:20px;
+        padding: 20px 20px 20px 30px;
+        font-size: 20px;
+    }
+    ul #list{
+        color: white;
+    }
+    #article {
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: black;
+    }
+    p{
+        color: white;
+        font-size: 20px;
+        font-family: 'jua', sans-serif;
+    }
+    #article h2{
+        text-align: center;
+    }
+        #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
     }
 </style>
